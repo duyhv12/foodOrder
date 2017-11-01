@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.AppCompat.Fullscreen" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:searchViewStyle">@style/searchViewStyle</item>
+    </style>
+    
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+
+        <item name="android:textColor">#fff</item>
+
+    </style>
+    <style name="searchViewStyle" parent="Widget.AppCompat.SearchView">
+        <item name="queryBackground">@color/black</item>
+    </style>
+
+
+</resources>

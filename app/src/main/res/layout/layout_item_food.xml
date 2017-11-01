@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/imFood"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_item_food"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="8dp">
+
+            <TextView
+                android:id="@+id/tvNameFood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lẩu cá hồi"
+                android:textSize="16sp"
+                android:textColor="#000"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/tvPriceFood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="150.000 VNĐ"
+                android:textSize="13sp"
+                android:textColor="#FF3C5D"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:layout_gravity="center">
+
+            <CheckBox
+                android:id="@+id/cbFood"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:buttonTint="#000"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
